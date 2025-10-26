@@ -12,7 +12,7 @@ Middleware Installation and How to Run It
 -----------------------------------------
 1. Open a terminal/command prompt and navigate to the "middleware" folder.
 2. Build the Docker image:
-   docker build -t middleware-image .
+   `docker build -t middleware-image .`
 3. Create the container:
    docker create --name middleware-container -p 3000:3000 middleware-image
 4. Start the container:
