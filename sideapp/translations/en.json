@@ -1,0 +1,14 @@
+{
+  "app": {
+    "name": "Get Latest Order",
+    "short_description": "Quickly see your latest order",
+    "long_description": "Access the latest order information for a customer based on their email address.",
+    "installation_instructions": "Simply click the install button",
+    "parameters": {
+      "disable_conflicts_prevention": {
+        "label": "Disable Conflicts Prevention",
+        "helpText": "If enabled, the app will not check for existing orders before creating a new one."
+      }
+    }
+  }
+}
